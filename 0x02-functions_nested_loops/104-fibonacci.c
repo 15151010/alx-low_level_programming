@@ -60,7 +60,7 @@ int main(void)
 		if (count != 98)
 			printf(", ");
 		else
-			printf9("\n");
+			printf("\n");
 	}
 
 	return (0);
