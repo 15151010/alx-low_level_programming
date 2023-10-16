@@ -9,7 +9,8 @@
  * of the string is odd, it prints the middle character and the remaining
  * characters starting from the next index.
  */
-void puts_half(const char *str)
+
+void puts_half(char *str)
 {
 	int length = 0;
 	int i;
