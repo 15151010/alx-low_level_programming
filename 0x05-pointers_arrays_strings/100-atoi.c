@@ -10,7 +10,7 @@
 
 int _atoi(char *s)
 {
-	nusigned int num = 0;
+	unsigned int num = 0;  /* Variable to store the converted integer */
 	int sign = 1;
 
 	do {
