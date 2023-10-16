@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * puuts2 - print every character of a string
+ * puts2 - Prints every other character of a string.
+ * @str: Pointer to the string.
  *
- * @str: string paramater input
- *
- * Return: Nothing
-*/
+ * This function prints every other character of the given string, starting
+ * from the first character.
+ */
 
 void puts2(char *str)
 {
