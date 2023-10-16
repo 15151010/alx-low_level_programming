@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <sdtio.h>
-
+#include<sdtio.h>
 /**
  * main - enty point
  *
