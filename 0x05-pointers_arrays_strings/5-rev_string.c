@@ -7,21 +7,22 @@
  * This function takes a pointer to a string and reverses the characters
  * in-place.
  */
-
 void rev_string(char *s)
 {
-	int l, i;
-	char temp;
+    int i, j;
+    char temp;
 
-	/* find stering length without null char*/
-	for (l = 0; s[l] != '\0'; ++l)
-		;
+    // Find the length of the string
+    int length = 0;
+    while (s[length] != '\0')
+        length++;
 
-	/* swap the string by looping to half the string*/
-	for (i = 0; i < 1 / 2; i++)
-	{
-		temp = s[i];
-		s[i] = s[l - 1 - i]; /* 1 because the array string from 0*/
-		s[l - 1 - i] = temp;
-	}
+    // Swap characters from both ends of the string
+    for (i = 0, j = length - 1; i < j; i++, j--)
+    {
+        // Swap s[i] and s[j]
+        temp = s[i];
+        s[i] = s[j];
+        s[j] = temp;
+    }
 }
