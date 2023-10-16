@@ -1,12 +1,12 @@
 #include"main.h"
 
 /**
- * rev_string - raverses a string
+ * rev_string - Reverses a string.
+ * @s: Pointer to the string to be reversed.
  *
- * @s; string parameter input
- *
- * Return: Nothing
-*/
+ * This function takes a pointer to a string and reverses the characters
+ * in-place.
+ */
 
 void rev_string(char *s)
 {
