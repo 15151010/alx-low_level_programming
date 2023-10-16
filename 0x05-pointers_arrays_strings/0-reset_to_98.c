@@ -1,9 +1,13 @@
 #include "main.h"
 
 /*
- * main - check the code 
+ * reset_to_98 - takes a pointer to an int parameter
+ *		and updates the value it prints to 98
  *
- * Return: Always 0.*/
+ * @n: int paramerter
+ *
+ * Return: Nothing
+*/
 
 void reset_to_98(int *n)
 {
