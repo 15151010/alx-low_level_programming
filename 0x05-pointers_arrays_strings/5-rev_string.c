@@ -14,13 +14,13 @@ void rev_string(char *s)
 	char temp;
 
 	/*find stering length without null char*/
-	for (1 = 0; s[i] != '\0'; ++l)
+	for (l = 0; s[i] != '\0'; ++l)
 		;
 	/*swap the string by looping to half the string*/
-	for (1 = 0; i < 1 / 2; i++)
+	for (i = 0; i < 1 / 2; i++)
 	{
 		temp = s[i];
-		s[i] = s[l - 1 1 i]; /*1 because the array string from 0*/
+		s[i] = s[l - 1 - i]; /*1 because the array string from 0*/
 		s[l - 1 - i] = temp;
 	}
 }
