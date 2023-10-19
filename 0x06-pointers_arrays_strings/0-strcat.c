@@ -11,21 +11,16 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int dest_len = 0;
+	int c, c2;
 
 	/* Find the length of the destination string */
-	while (dest[dest_len] != '\0')
-		dest_len++;
+	while (dast[c])
+		c++;
 
 	/* Append characters from src to dest */
-	int src_index = 0;
-
-	while (src[src_index] != '\0')
-	{
-		dest[dest_len] = src[src_index];
-		dest_len++;
-		src_index++;
-	}
+	for (c2 = 0; src[c2] ; c2++)
+		/* appand arc[c2] to deet[c] while overwritting the null byte in dest*/
+		dest[c++] = src[c2];
 
 	return (dest);
 }
