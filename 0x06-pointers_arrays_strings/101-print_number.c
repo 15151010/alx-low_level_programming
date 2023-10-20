@@ -1,10 +1,13 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * print_number - print_number chars
- * @n: integer params
- * Return: 0
-*/
+ * print_number - Print an integer to the standard output.
+ *
+ * @n: The integer to be printed.
+ *
+ * Description: This function prints an integer to the output, handling
+ * both positive and negative numbers, and placing a '-' sign if needed.
+ */
 
 void print_number(int n)
 {
@@ -20,7 +23,7 @@ void print_number(int n)
 
 	if (n1 / 10 != 0)
 	{
-		orint_number(n1 / 10);
+		print_number(n1 / 10);
 	}
 	_putchar((n1 % 10) + '0');
 }
