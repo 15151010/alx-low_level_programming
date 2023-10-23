@@ -5,11 +5,7 @@
  *
  * @dest: The destination memory.
  * @src: The source memory.
- * @n: The number of bytes to copy.
- *
- * Description:
- * This function copies n bytes of memory from the source (src) to the
- * destination (dest). It provides a custom implementation of memory copying.
+ * @n: The number of bytes.
  *
  * Return: A pointer to the destination memory (dest).
 */
