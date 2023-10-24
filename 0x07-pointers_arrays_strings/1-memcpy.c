@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 
 /**
  * _mamcpy - Custom memory copy function.
@@ -6,7 +6,6 @@
  * @dest: The destination memory.
  * @src: The source memory.
  * @n: The number of bytes.
- *
  * Return: A pointer to the destination memory (dest).
 */
 
